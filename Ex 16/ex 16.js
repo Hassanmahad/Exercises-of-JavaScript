@@ -1,7 +1,14 @@
+const people = [
+  { name: "Alice", age: 25, city: "Wonderland" },
+  { name: "Bob", age: 30, city: "Builderland" },
+  { name: "Charlie", age: 35, city: "Chocolate Factory" }
+];
 
-let score = 60 ;
-if ( score >= 50 ){
-  console.log("You pass");
-}else{
-  console.log("You field");
+for (const key of people) {
+    for ( k in key){
+            console.log(k +" : " + key[k] );
+
+    }
+                console.log("---------");
+
 }

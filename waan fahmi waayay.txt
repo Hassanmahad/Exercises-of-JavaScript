@@ -4,3 +4,5 @@ JavaScript
 1. Reduce
 
 2. Maxaa lagu kala gartaa synchronous iyo Asynchronous
+
+3. Callback function

@@ -13,10 +13,10 @@ function fetchUserData() {
 }
 
 async function displayData() {
-    try{
-const user = await fetchUserData();
-console.log(user);
-    }catch(error) {
+    try {
+        const user = await fetchUserData();
+        console.log(user);
+    } catch (error) {
         console.log("error");
 
 
@@ -25,5 +25,5 @@ console.log(user);
 
 
 displayData()
-    // .then(data => console.log("User Data:", data))
-    // .catch(error => console.error("Error:", error));
+// .then(data => console.log("User Data:", data))
+// .catch(error => console.error("Error:", error));
